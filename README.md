@@ -8,4 +8,8 @@ Links:
  - Machine learning is like money laundering for bias https://idlewords.com/talks/sase_panel.htm
 
 New
+ - Seeing like a state: 
+   - mall screen track faces, link?
+   - china tracking Uighurs a muslim minority https://www.nytimes.com/2019/04/14/technology/china-surveillance-artificial-intelligence-racial-profiling.html
+   - Facial Recognition Database Exposes 2.5 Million People https://futurumresearch.com/chinese-facial-recognition-database/
  - Apps interactions with Facebook on Android https://privacyinternational.org/campaigns/investigating-apps-interactions-facebook-android
