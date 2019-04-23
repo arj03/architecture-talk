@@ -6,3 +6,6 @@ Links:
  - More than 70% of view time on YouTube comes from AI https://algotransparency.org/
  - Degenerate Feedback Loops https://arxiv.org/abs/1902.10730
  - Machine learning is like money laundering for bias https://idlewords.com/talks/sase_panel.htm
+
+New
+ - Apps interactions with Facebook on Android https://privacyinternational.org/campaigns/investigating-apps-interactions-facebook-android
