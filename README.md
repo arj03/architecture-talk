@@ -3,6 +3,7 @@
 - https://cleantechnica.com/2019/05/03/brain-dead-zuckerberg-hires-daily-caller-group-to-fact-check-climate-news/
 - https://en.wikipedia.org/wiki/Splinternet
 - https://www.inkandswitch.com/local-first.html
+  - 7 goals: Fast, multi-device, offline, collaboration, longevity, privacy, user control
   - offline first: no vendor lock in, like the old days of desktop applications, individual, security, privacy
   - best of both worlds (collaboration + offline first)
 - https://www.opendemocracy.net/en/facebook-and-google-pressured-eu-experts-soften-fake-news-regulations-say-insiders/
