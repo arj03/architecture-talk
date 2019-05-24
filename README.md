@@ -18,3 +18,5 @@ A colleague from the analytics dept in my office might clean the data a bit with
 
 General i hæren: second world war, siemens
 
+If the multitudes scatter and cannot be retained, the city state will become a mound of ruins.
+ - Early Chinese Manual of Governance
