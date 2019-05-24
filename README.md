@@ -20,3 +20,5 @@ General i hæren: second world war, siemens
 
 If the multitudes scatter and cannot be retained, the city state will become a mound of ruins.
  - Early Chinese Manual of Governance
+
+https://media.giphy.com/media/26BRLsjNn5tFdCGti/giphy.gif
