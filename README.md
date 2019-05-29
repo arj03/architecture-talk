@@ -12,4 +12,4 @@ A colleague from the analytics dept in my office might clean the data a bit with
 
 General i hæren: second world war, siemens
 
-
+https://twitter.com/computerfact/status/1014174844815015937
