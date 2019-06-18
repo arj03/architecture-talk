@@ -1,5 +1,7 @@
 # architecture-talk
 
+Start med disclaimer: Warning <new slide> this talk is going to be opinionated!
+
 - https://cleantechnica.com/2019/05/03/brain-dead-zuckerberg-hires-daily-caller-group-to-fact-check-climate-news/
 - https://en.wikipedia.org/wiki/Splinternet
 - https://www.opendemocracy.net/en/facebook-and-google-pressured-eu-experts-soften-fake-news-regulations-say-insiders/
