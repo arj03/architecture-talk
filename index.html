@@ -8,29 +8,33 @@
     <div class="reveal">
       <div class="slides">
 	<section>
-          <h1>Anarchitecture</h1>
+          <h2>Anarchitecture</h2>
           <img src="network animation.webp" style="border: 0; box-shadow: 0 0 0px;"/>
         </section>
 	<section>
-          <h1>About me</h1>
+          <h1 style="color:red">WARNING</h1>
+          This talk is going to be<br> <i>opinionated!</i>
+        </section>
+	<section>
+          <h2>About me</h2>
           Anders Rune Jensen<br/>
           Masters from AAU 2006<br/>
           Worked on secure scuttlebutt for 2-3 years
         </section>
         <section>
-          Conway’s Law states:<br/><br/>
+          Conway’s Law:<br/><br/>
           <i>Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure.</i>
         </section>
 	<section>
-          <h2>Normal program architecture</h2>
-          <img src="Client-server-model.svg" style="width: 800px; border: 0; box-shadow: 0 0 0px;" />
+          <h2>Standard architecture</h2>
+          <img src="Client-server-model.svg" style="width: 700px; border: 0; box-shadow: 0 0 0px;" />
         </section>
         <section>
           <h2>Features</h2>
           <ul>
             <li>Data is centralised</li>
-            <li>Hierarchy of control</li>
             <li>The UI design is standardized</li>
+            <li>Power lies in being able to decide how the system can be used</li>
           </ul>
         </section>
 	<section>
@@ -41,17 +45,29 @@
           <h2>ML recommendation systems</h2>
           <ul>
             <li>Anywhere with large quantities of data</li>
-            <li>Youtube, Netflix, Amazon, Google</li>
-            <li>But also Facebook</li>
+            <li>Youtube, Netflix, Amazon, Google search, Facebook</li>
           </ul>
         </section>
         <section>
           <h2>Continued</h2>
           <ul>
             <li>More than <a href="https://algotransparency.org/">70%</a> of view time on YouTube comes from "AI"</li>
-            <li><a href="https://arxiv.org/abs/1902.10730">Degenerate feedback loops</a> in recommender systems</li>
-            <li>Machine learning is like <a href="https://idlewords.com/talks/sase_panel.htm">money laundering for bias</a></li>
             <li>Not on facebook? No problem. <a href="https://privacyinternational.org/campaigns/investigating-apps-interactions-facebook-android">Android apps interact with Facebook</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Features</h2>
+          <ul>
+            <li>Give power to the data</li>
+            <li>Meaning anyone who can generate the data</li>
+            <li>Helps to know the underlying algorithms</li>
+          </ul>
+        </section>
+        <section>
+          <h2>Problems</h2>
+          <ul>
+            <li><a href="https://idlewords.com/talks/sase_panel.htm">Money laundering for bias</a></li>
+            <li><a href="https://arxiv.org/abs/1902.10730">Degenerate feedback loops</a> (echo chambers, filter bubbles) in recommender systems</li>
           </ul>
         </section>
 	<section>
@@ -65,12 +81,10 @@
         <section>
           <h2>Machine learning summary</h2>
           <ul>
-            <li style="margin-bottom: 10px">Great for (ethical) robots</li>
-            <li>Surveillance capitalism very dangerous for:
-              <ul>
-                <li><a href="https://www.pnas.org/content/111/24/8788.full">humans</a> - emotional experiment 2014</li>
-                <li><a href="https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy">democracy</a> - brexit 2016, Trump 2017</li>
-            </li>
+            <li>Huge global systems</li>
+            <li>FIXME: Surveillance capitalism very dangerous for:</li>
+            <li><a href="https://www.pnas.org/content/111/24/8788.full">humans</a> - emotional experiment 2014</li>
+            <li><a href="https://www.ted.com/talks/carole_cadwalladr_facebook_s_role_in_brexit_and_the_threat_to_democracy">democracy</a> - brexit 2016, Trump 2017</li>
           </ul>
         </section>
 	<section>
@@ -78,18 +92,32 @@
           <img src="p2p.jpg" style="height: 500px; border: 0; box-shadow: 0 0 0px;" />
         </section>
         <section>
+	  <img src="decentralized.svg" style="height: 650px; border: 0; box-shadow: 0 0 0px;" />
+        </section>
+        <section>
           <h2>Federated</h2>
           <ul>
-            <li>Mastodon, NextCloud using ActivityPub</li>
-            <li>Same problems as email</li>
-            <li>Pseudo-centralised</li>
+	    <li>Power centralized at servers</li>
+	    <li>Diversity, local governance</li>
+            <li>Tendency towards eventual centralisation</li>
+          </ul>
+        </section>
+	<section>
+	  <img src="distributed.svg" style="height: 650px; border: 0; box-shadow: 0 0 0px;" />
+	</section>
+        <section>
+          <h2>Distributed</h2>
+          <ul>
+	    <li>Power at the edges</li>
+	    <li>Users control: UI, privacy, moderation</li>
+	    <li>Bottom up governance</li>
           </ul>
         </section>
         <section>
           <h2>Local first software</h2>
           <a href="https://www.inkandswitch.com/local-first.html">inkandswitch</a> article:<br/>
           <ul>
-            <li>Fast</li>
+            <li>fast</li>
             <li>multi-device</li>
             <li>offline</li>
             <li>collaboration</li>
@@ -97,16 +125,6 @@
             <li>privacy</li>
             <li>user control</li>
           </ul>
-        </section>
-        <section>
-          FIXME: rethink the arguments on this slide
-          Things that naturally falls out of local first<br/>
-          <ul>
-            <li>no vendor lock in</li>
-            <li>better security</li>
-          </ul>
-          <br/><br/>
-          Want the best of desktop applications (offline first) and modern web (collaboration)
         </section>
         <section>
           <h4>Scuttlebutt</h4>
