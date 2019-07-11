@@ -6,11 +6,11 @@
   -  EU Code of Practice on Disinformation: https://ec.europa.eu/digital-single-market/en/news/code-practice-disinformation
 - https://www.boundless.ai/
 
+Panopticon
+
 Hendrik Peter
 
 Size is number of incoming connections, red are people with earlier network-birth, blue are newer people.
 A colleague from the analytics dept in my office might clean the data a bit with his magic later, there are still some extremes in the data-set.
-
-General i hæren: second world war, siemens
 
 https://twitter.com/computerfact/status/1014174844815015937
